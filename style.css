@@ -1,0 +1,91 @@
+/* Global Styles */
+
+/* Font Family */
+
+/* Fonts */
+
+.fonts {
+    --font-family-0: 'Roboto', sans-serif;
+}
+
+/* Color Pallete */
+
+/* Colors */
+
+.colors {
+    --white: #fff;
+    --black: #000;
+    --main-color-0: #e6fcf5;
+    --main-color-1: #c3fae8;
+    --main-color-2: #0ca678;
+    --main-color-3: #099268;
+    --main-color-4: #087f5b;
+    --text-color-0: #495057;
+    --text-color-1: #343a40;
+    --text-color-2: #212529;
+}
+
+/* Background Colors */
+.bg-color-0 {
+    background-color: var(--main-color-0);
+}
+
+.bg-color-1 {
+    background-color: var(--main-color-1);
+}
+.bg-color-2 {
+    background-color: var(--main-color-2);
+}
+.bg-color-3 {
+    background-color: var(--main-color-3);
+}
+.bg-color-4 {
+    background-color: var(--main-color-4);
+}
+
+/* Text Colors */
+
+.txt-color-0 {
+    color: var(--text-color-0);
+}
+.txt-color-1 {
+    color: var(--text-color-1);
+}
+.txt-color-2 {
+    color: var(--text-color-2);
+}
+
+
+/* Buttons Styles */
+
+.btn-primary {
+    background: linear-gradient(var(--main-color-3), var(--main-color-2));
+    padding: 10px 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color-0);
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: var(--white);
+    padding: 10px 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color-4);
+    border: 2px solid var(--main-color-4);
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-0);
+}
+
+/* Global Styles End */
