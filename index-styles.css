@@ -1,0 +1,23 @@
+@import url('styles.css');
+
+/* Layout Configurations */
+
+/* Header */
+
+/* Global */
+.top-header {
+    display: flex;
+}
+
+.logo {
+    color: var(--main-color-4);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.logo::first-letter {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/* Header End */
