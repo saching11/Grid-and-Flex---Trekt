@@ -2,12 +2,25 @@
 
 /* Layout Configurations */
 
+/* Container */
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 6fr 3fr 4fr;
+    grid-template-columns: 1fr 4fr 2fr;
+}
+
 /* Header */
 
 /* Global */
 .top-header {
-    display: flex;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    justify-items: center;
+    align-items: center;
 }
+
 
 .logo {
     color: var(--main-color-4);
@@ -19,5 +32,11 @@
     font-size: 40px;
     font-weight: 900;
 }
+
+.menu {
+    
+    
+}
+
 
 /* Header End */
