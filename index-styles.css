@@ -23,7 +23,6 @@
 
 
 .logo {
-    color: var(--main-color-4);
     font-size: 30px;
     font-weight: 700;
 }
@@ -34,8 +33,14 @@
 }
 
 .menu {
-    
-    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
 }
 
 

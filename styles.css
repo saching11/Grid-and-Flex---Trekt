@@ -2,17 +2,10 @@
 
 /* Font Family */
 
-/* Fonts */
+/* Fonts and Color Pallete - Setting in root so that it will be available globally */
 
 :root {
     --font-family-0: 'Roboto', sans-serif;
-}
-
-/* Color Pallete */
-
-/* Colors */
-
-.colors {
     --white: #fff;
     --black: #000;
     --main-color-0: #e6fcf5;
@@ -24,6 +17,7 @@
     --text-color-1: #343a40;
     --text-color-2: #212529;
 }
+
 
 /* Background Colors */
 .bg-color-0 {
@@ -55,6 +49,15 @@
     color: var(--text-color-2);
 }
 
+.txt-maincolor-0 {
+    color: var(--main-color-0);
+}
+.txt-maincolor-1 {
+    color: var(--main-color-2);
+}
+.txt-maincolor-2 {
+    color: var(--main-color-4);
+}
 
 /* Buttons Styles */
 
