@@ -45,3 +45,28 @@ a {
 
 
 /* Header End */
+
+/* Hero Section */
+
+.hero {
+    grid-column: 1/-1;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.left-hero {
+    grid-column: 1/3;
+
+}
+
+.right-hero {
+    grid-column: 3 /-1;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
