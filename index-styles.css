@@ -100,3 +100,11 @@ img {
     height: auto;
 }
 
+/* hero section ends  */
+
+/* offer section begins */
+.offer {
+    grid-column: 1/-1;
+    justify-self: center;
+}
+
