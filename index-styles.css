@@ -104,7 +104,19 @@ img {
 
 /* offer section begins */
 .offer {
+    margin-top: 30px;
     grid-column: 1/-1;
     justify-self: center;
+    text-align: center;
 }
 
+.offer-text {
+    font-size: 50px;
+    font-weight: 500;
+    
+
+}
+
+.offer-content {
+    font-weight: 500;
+}
